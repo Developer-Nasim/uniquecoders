@@ -4474,7 +4474,9 @@ body.loaded {
 
 .intro-img-parlx .img img {
   width: 250%;
-  margin-left: -150%;
+  margin-left: -150%;    
+  max-height: 600px;
+  object-fit: cover;
 }
 
 .intro-img-parlx .img .star-shape {
